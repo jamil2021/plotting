@@ -34,3 +34,8 @@ The script expects a tab-separated file like this (replace with your actual data
 ### Contribution
 
 Feel free to modify and extend this script for your specific needs. If you find improvements or have suggestions, consider creating a pull request on GitHub.
+
+### Addition 1
+Tried to plot the same with Generic Mapping Tools (GMT). The bash script is given.
+### Addition 2
+Tried to plot the same using pygmt package. Two python scripts are given.
