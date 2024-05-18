@@ -10,7 +10,8 @@ fig = pygmt.Figure()
 fig.basemap(region=region, projection="M6i", frame=True)
 
 # Add coastlines
-fig.coast(shorelines=True, borders=[1, 2], water="skyblue", land="lightgray")
+# fig.coast(shorelines=True, borders=[1, 2], water="skyblue", land="lightgray")
+fig.coast(shorelines=True, borders=[1, 2], water="skyblue", land="white")
 
 # Add a title
 fig.text(text="Map of Pakistan and Surrounding Regions", x=70, y=38, font="16p,Helvetica-Bold", justify="CM")
