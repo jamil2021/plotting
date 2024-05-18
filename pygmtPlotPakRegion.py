@@ -1,7 +1,7 @@
 import pygmt
 
 # Define the region to plot (Pakistan and surrounding areas)
-region = [55, 80, 20, 40]  # [xmin, xmax, ymin, ymax]
+region = [55, 75, 20, 40]  # [xmin, xmax, ymin, ymax]
 
 # Create a figure
 fig = pygmt.Figure()
